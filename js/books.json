@@ -1,0 +1,59 @@
+﻿{
+  "remenxiaoshuo":[
+    {  "bookpic":"img/xiaoshuo01.jpg",  "bookname":"大国工程",  "author":"和光万物" },
+	{  "bookpic":"img/xiaoshuo03.jpg",  "bookname":"大医凌然",  "author":"志鸟村" },
+	{  "bookpic":"img/xiaoshuo04.jpg",  "bookname":"反派驾临",  "author":"东士大茄" },
+	{  "bookpic":"img/xiaoshuo07.jpg",  "bookname":"大国战戟",  "author":"步枪" },
+	{  "bookpic":"img/xiaoshuo02.jpg",  "bookname":"我有无数物",  "author":"大树胖成鱼" },
+	{  "bookpic":"img/xiaoshuo06.jpg",  "bookname":"网游之白骨精",  "author":"逆袭的马" }
+  ],
+  
+"mianfei":[
+    {  "bookpic":"img/xs.jpg",  "bookname":"战锤神座",  "author":"汉朝天子" },
+    {  "bookpic":"img/xs1.jpg",  "bookname":"高武27世纪",  "author":"草鱼L" },
+    {  "bookpic":"img/xs2.jpg",  "bookname":"我能看见..",  "author":"罗三观.cs" },
+    {  "bookpic":"img/xiaoshuo07.jpg",  "bookname":"大国战戟",  "author":"步枪" },
+    {  "bookpic":"img/xiaoshuo02.jpg",  "bookname":"我有无数物",  "author":"大树胖成鱼" },
+    {  "bookpic":"img/xiaoshuo06.jpg",  "bookname":"网游之白骨精",  "author":"逆袭的马" }
+  ],
+  "paihangbang":[
+    {  "bookpic":"img/xs.jpg",  "bookname":"战锤神座",  "author":"汉朝天子" },
+    {  "bookpic":"img/xs1.jpg",  "bookname":"高武27世纪",  "author":"草鱼L" },
+    {  "bookpic":"img/xs2.jpg",  "bookname":"我能看见..",  "author":"罗三观.cs" },
+    {  "bookpic":"img/xiaoshuo07.jpg",  "bookname":"大国战戟",  "author":"步枪" },
+    {  "bookpic":"img/xiaoshuo02.jpg",  "bookname":"我有无数物",  "author":"大树胖成鱼" },
+    {  "bookpic":"img/xiaoshuo06.jpg",  "bookname":"网游之白骨精",  "author":"逆袭的马" }
+  ],
+  "newbook":[
+	  {"bookpic":"./img/xiaoshuo19.jpg","bookname":"亏成首富从游戏开始",
+	  "booktext":"近日，特约记者对腾达集团总裁婓谦做了专访。腾达集团目前估值已达千亿级别.",
+	  "author":"青衫取醉","booktype":"游戏","textnum":"64.69万字","sellstuta":"连载中"},
+	  {"bookpic":"./img/xiaoshuo26.jpg","bookname":"当医生开了外挂",
+	  "booktext":"烂柯旁棋局落叶，老树间对弈无人兴所致天元一子，再回首山海苍茫……一觉醒来",
+	  "author":"手握寸关尺","booktype":"都市","textnum":"64.57万字","sellstuta":"连载中"}
+  ],
+  "outbook":[
+	  {"bookpic":"./img/xiaoshuo28.jpg","bookname":"凡人修仙传",
+	  "booktext":"灵剑派成立于九州历四二三三年，几千年来始终致力于为行业提供一流的修仙...",
+	  "author":"忘语","booktype":"仙侠","textnum":"741.5万字","sellstuta":"已经完本"},
+	  {"bookpic":"./img/xiaoshuo27.jpg","bookname":"大王饶命",
+	  "booktext":"中生吕树在一场车祸中改变人生，当灵气复苏时代来袭，他要做这时代的领跑者。",
+	  "author":"会说话的胖子","booktype":"都市","textnum":"64.57万字","sellstuta":"已经完本"}
+  ],
+  "xuanhuanqihuan":[
+	  {  "bookpic":"img/xiaoshuo30.jpg",  "bookname":"造化国",  "author":"横扫天涯" },
+	  {  "bookpic":"img/xiaoshuo31.jpg",  "bookname":"十亿次拔刀",  "author":"钢金" },
+	  {  "bookpic":"img/xiaoshuo32.jpg",  "bookname":"我真没想无..",  "author":"我没想大.." },
+	  {  "bookpic":"img/xiaoshuo33.jpg",  "bookname":"最强装备大.",  "author":"法无龙" },
+	  {  "bookpic":"img/xiaoshuo02.jpg",  "bookname":"我有无数物",  "author":"大树胖成鱼" },
+	  {  "bookpic":"img/xiaoshuo06.jpg",  "bookname":"网游之白骨精",  "author":"逆袭的马" }
+  ],
+  "lishijunshi":[
+  	  {  "bookpic":"img/xiaoshuo35.jpg",  "bookname":"寒门状元",  "author":"天子" },
+  	  {  "bookpic":"img/xiaoshuo36.jpg",  "bookname":"寒门崛起",  "author":"朱郎才尽" },
+  	  {  "bookpic":"img/xiaoshuo37.jpg",  "bookname":"悠闲的穿越",  "author":"七月余夏.." },
+  	  {  "bookpic":"img/xiaoshuo38.jpg",  "bookname":"大宋无疆.",  "author":"虎郎" },
+  	  {  "bookpic":"img/xiaoshuo02.jpg",  "bookname":"我有无数物",  "author":"大树胖成鱼" },
+  	  {  "bookpic":"img/xiaoshuo06.jpg",  "bookname":"网游之白骨精",  "author":"逆袭的马" }
+  ]
+}

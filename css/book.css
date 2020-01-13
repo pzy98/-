@@ -1,0 +1,308 @@
+﻿/*来自**提示：请尊重劳动成果^_^*/
+ * {
+	 
+ 	font-family: sans-serif;
+ }
+ html body{
+	background-color: #EEEEEE;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.top-container{
+	width: 100%;
+	height: 240px;
+	padding: 6px 8px;
+}
+.top-container header{
+	width: 100%;
+	height:30px;
+}
+header span{
+	padding: 3px;
+	color: #555555;
+	font-size: 14px;
+}
+
+.bookbox{
+	width: 100%;
+	height: 190px;
+	margin-top: 10px;
+}
+/* 书图片 */
+.bookimg{
+	float: left;
+	margin-right: 6px;
+	width: 22%;
+	height: 100px;
+}
+/* 书名 */
+.bookname{
+	float: left;
+	width: 70%;
+	height: 25px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+.bookname p{
+	
+}
+/* 等级 */
+.grade{
+	float: left;
+	width: 70%;
+	height: 18px;
+	padding: 1px;
+}
+.grade span:first-child{
+	font-size: 10px;
+}
+.grade span:last-child{
+	color: #FFFFFF;
+	font-size: 6px;
+	background:#ff1654;
+	margin-left: 3px;
+	border-radius: 3px;
+}
+/* 评价 */
+.pingjia{
+	float: left;
+	width: 70%;
+	height: 18px;
+	padding: 1px;
+}
+.pingjia span:not(:last-child){
+	color: gold;
+}
+.pingjia span:last-child{
+	color: gray;
+	font-size: 8px;
+}
+/* 书类型 */
+.bookclass{
+	float: left;
+	width: 70%;
+	height: 40px;
+	font-size: 10px;
+}
+/* 用户按钮 */
+.btnbox{
+	width: 100%;
+	text-align: center;
+	clear: both;
+	padding: 10px 0px;
+}
+.btnbox button{
+	width: 26%;
+	padding: 3px;
+	font-size: 12px;
+}
+.btnbox button:first-child{
+	float: left;
+	color: #FFFFFF;
+	border: none;
+	background-color:#ff1654 ;
+}
+.btnbox button:last-child{
+	float:right;
+}
+.btnbox button:not(:first-child){
+	margin-left: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid gainsboro;
+}
+/* 下载按钮 */
+.loadown{
+	margin-top: 10px;
+	font-size: 12px;
+	width: 100%;
+	border: 1px solid gainsboro;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+	padding: 4px 0 4px 0;
+}
+/* 小说简介&目录 */
+.text-container{
+	width: 100%;
+	height: 140px;
+	background-color: #FFFFFF;
+}
+.text-container article{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	padding: 12px 8px;
+	font-size: 14px;
+	background-color: #FFFFFF;
+	/* 设置自动换行 */
+	text-overflow: ellipsis;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: break-all;
+	border-top: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
+}
+.mydown{
+	position:absolute;
+	right: 8px;
+	bottom:25px;
+	width: 18px;
+	height: 20px;
+	padding: 0;
+	color: gray;
+	font-size: 18px;
+	background-color: #FFFFFF;
+}
+/* 目录 */
+.mulubox{
+	width: 100%;
+	height: 35px;
+	padding: 6px 8px;
+	background-color: #FFFFFF;
+	/* border: 1px solid red; */
+}
+.mulubox span:first-child{
+	font-size: 15px;
+	font-weight: bold;
+}
+.mulubox span:last-child{
+	float: right;
+	font-size: 10px;
+	color: gray;
+}
+/* 投票 */
+.toupiao-box{
+	position: relative;
+	margin-top: 8px;
+	width: 100%;
+	height: 100px;
+	padding: 8px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+.toupiao-box p{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+.toupiao-box span{
+	font-size: 6px;
+	color: grey;
+}
+div[id^='s']{
+	width: 22%;
+	height:90px ;
+}
+#s1{
+	float: left;
+}
+#s2{
+	margin: 0 auto;
+}
+#s3{
+	position: absolute;
+	top: 8px;
+	right: 6px;
+}
+/* 广告 */
+.guanggao{
+	width: 100%;
+	height: 68px;
+	padding: 6px 8px;
+	/* border: 1px solid salmon; */
+}
+/* 本书作者 */
+.author-box{
+	width: 100%;
+	height: 120px;
+	background-color: #FFFFFF;
+}
+.author-box p{
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 8px;
+}
+.author-info{
+	width: 100%;
+	height:70px ;
+	padding: 6px 8px;
+	border-top: 1px solid gainsboro;
+}
+.author-info p:last-child{
+	color: gray;
+	font-size: 12px;
+}
+.a-img{
+	margin-right: 8px;
+	float: left;
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+/* 相关标签 */
+.biaoqian-box{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	height: 80px;
+	background-color: #FFFFFF;
+}
+.biaoqian-box p{
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 8px;
+	}
+.btn-box{
+	width: 100%;
+	height: 45px;
+	padding: 8px;
+	border-top: 1px solid gainsboro;
+}
+.btn-box button{
+	color: gray;
+	border-radius: 25px;
+	border: 1px solid #333333;
+	background-color: #FFFFFF;
+}
+/* 底部 */
+.bottom-box{
+	width: 100%;
+	height: 90px;
+	background-color: #FFFFFF;
+}
+.tip{
+	width: 100%;
+	height: 25px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: 1px solid gainsboro;
+}
+.tip a{
+	font-size:11px ;
+}
+/* 底部版本版权 */
+.copyright{
+	width: 100%;
+	height: 20px;
+	background-color: #FFFFFF;
+	text-align: center;
+	color:grey ;
+	}
+.copyright ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.copyright ul li{
+	margin-left: 18px;
+	float: left;
+	font-weight: bold;
+	list-style: none;
+}
+.copyright li:nth-child(2){
+	color: #000000;
+}

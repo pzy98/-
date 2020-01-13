@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+		<script src="./js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="./css/book.css"/>
+	</head>
+	
+	<body>
+		<div class="top-container">
+			<!-- 头部bar -->
+			<header>
+				<span onclick="goback()" class="pull-left glyphicon glyphicon-chevron-left">大国工程</span>
+				<span class="pull-right">
+					<span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;
+					<span class="glyphicon glyphicon-align-left"></span>
+				</span>
+			</header>
+			<!-- 书名书图片 -->
+			<div class="bookbox">
+				<!-- 书图片 -->
+				<section class="bookimg">
+					<img src="./img/xiaoshuo01.jpg" width="100%"height="100%">
+				</section>
+				<!-- 书名 -->
+				<section class="bookname">
+					<p>大国工程</p>
+				</section>
+				<!--作者 等级 -->
+				<section class="grade">
+					<span>和光万物</span>
+					<span><em>Lv.5</em></span>
+				</section>
+				<!-- 评价 -->
+				<section class="pingjia"> 
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span>8.8分/110人评过</span>
+				</section>
+				<!-- 书类型 -->
+				<section class="bookclass">
+					<span>都市/都市生活</span><br>
+					<span>312.52万字</span>&nbsp;|&nbsp;<span>连载</span>
+				</section>
+				<!-- 用户按钮 -->
+				<div class="btnbox">
+					<button type="button">免费阅读</button>
+					<button type="button">加入书架</button>
+					<button type="button">VIP订阅</button>
+				</div>
+				<!-- 下载按钮 -->
+				<button class="loadown" type="button">下载起点读书APP</button>
+			</div>
+		</div>
+		<!-- 小说简介0目录 -->
+		<div class="text-container" >
+			<article id="ch">
+				　郁郁不得志的房产新人陈晋得到了一款逆天APP！
+				　　“叮”发现新客户，需求：……
+				　　“叮”发现匹配房源……
+				　　从此游戏房产业，迎来人生巅峰？
+				　　“叮”积分不足，请尽快赚取积分！
+				　　陈晋：“WTF？”
+				　　“叮”累计积分突破1000万，已开启下一阶段功能，建议购入土地自行开发！
+				　　PS：本书宜慢品细读。
+				　　-------------------------------------------------------
+				　　郑重声明：本书纯架空，所有出现的人名、地名、公司名等等，完全虚构，如有雷同，纯属巧合！
+			<div class="mydown">
+			<span class="glyphicon glyphicon-chevron-down" onclick="changeheight()"></span>
+			</div>
+			</article>
+			<!-- 目录 -->
+			<div class="mulubox">
+				<span>目录</span>
+				<span>3小时前.连载至1124.回归的第一步></span>
+			</div>
+		</div>
+		<!-- 投票 -->
+		<div class="toupiao-box">
+			<div id="s1">
+				<img src="./icon/tickets.png" width="40" height="40">
+				<p>投月票</p>
+				<span>票.第位</span>
+			</div>
+			<div id="s2">
+				<img src="./icon/Recommend.png" width="40" height="40">
+				<p>投推荐票</p>
+				<span>1665周推荐票</span>
+			</div>
+			<div  id="s3">
+				<img src="./icon/money.png" width="40" height="40">
+				<p>打赏</p>
+				<span>本周2人打赏</span>
+			</div>
+		</div>
+		<!-- 广告 -->
+		<div class="guanggao">
+			<img src="./img/guanggao.jpg" width="100%"height="100%">
+		</div>
+		<!-- 本书作者 -->
+		<div class="author-box">
+			<p>本书作者</p>
+			<div  class="author-info">
+				<!-- 作者头像 -->
+				<div class="a-img">
+					<img src="./img/lf.jpg" width="100%" height="100%">
+				</div>
+				<!-- 作者名字 -->
+				<p class="a-name">丫丫</p>
+				<p>暂无作者简介<span class="pull-right glyphicon glyphicon-chevron-right"></span></p>	
+			</div>
+		</div>
+		<!-- 相关标签 -->
+		<div class="biaoqian-box">
+			<p>相关标签</p>
+			<div class="btn-box">
+				<button type="button">孤儿</button>
+				<button type="button">腹黑</button>
+				<button type="button">赚钱</button>
+			</div>
+		</div>
+		<!-- 底部提示 -->
+		<div class="bottom-box">
+		<div class="tip">
+			<p>登录后获得更多特色功能.<a href="">立即登录</a></p>
+		</div>
+		<!-- 版本+版权 -->
+		<div class="copyright">
+			<ul>
+				<li>客户端</li>
+				<li>触屏版</li>
+				<li>电脑版</li>
+				<li>帮助</li>
+				<li>反馈</li>
+			</ul>
+		<p style="font-size: 12px;margin-top: 3px;background-color: #FFFFFF;">Copyright@2002-2019 m.qidian.com</p>
+		</div>
+		</div>
+		<!-- 自定义JS -->
+		<script src="./js/book.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

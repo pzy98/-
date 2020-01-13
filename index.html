@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta charset="utf-8">
+		<title>起点男生网</title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="./font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/swiper.min.css"/>
+		<script src="./js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>	
+		<script src="./js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	
+	<body>
+		<!--  -->
+		<div class="fixed-box" onclick="tip()">
+			最近阅读
+		</div>
+		<div class="topbox">
+			<header>
+				<!-- 文字logo -->
+				<section class="logo">起点中文网</section>
+				<!-- 中间小按钮 -->
+				<section class="boygirl-btn">
+				<a href=""class="boy">男生</a>
+				<a href=""class="girl">女生</a>
+				</section>
+				<!-- 右边小图标 -->
+				<section class="user-icon">
+					<span class="pull-left glyphicon glyphicon-user" style="font-size:16px;color:#ff1654 ;"></span>
+					</span>
+					<span class="pull-right glyphicon glyphicon-book" style="font-size: 15px;color: #ff1654;"></span>
+				</section>
+			</header> 
+			<!-- 轮播图 -->
+			<section class="lunbo">
+				<div class="picbox">
+					<img id="pic" src="./img/lunbo1.jpg" width="100%" height="95">
+				<!-- 红点 -->
+				<div class="poit">
+					<ul>
+						<li>&nbsp;&nbsp;&nbsp;</li>
+						<li>&nbsp;&nbsp;&nbsp;</li>
+						<li>&nbsp;&nbsp;&nbsp;</li>
+						<li>&nbsp;&nbsp;&nbsp;</li>
+					</ul>
+				</div>
+				</div>
+			</section>
+			<!--搜索框-->
+			<section class="search">
+				<form action="" method="">
+					<input class="col-xs-12" type="search" value="" placeholder="出名太快怎么办"/>
+					<span class="iconfont icon-fangdajing"></span>
+				</form>
+			</section>
+		</div>
+		<!-- 按钮组 -->
+		<div class="btnbox">
+			<!--test-->
+			<div class="sm-box">
+			  <!-- btn1 -->
+			    <div class="btn right_margin">
+			      <div class="yuan"><img src="./icon/read.png" width="25" height="25"></div>
+			      <span>分类</span>
+			    </div>
+			    <!-- btn2 -->
+			    <div class="btn right_margin">
+			    <div class="yuan"><img src="icon/cup.png"  width="25" height="25"></div>
+			      <span>排行榜</span>
+			    </div>
+			    <!-- btn3 -->
+			    <div class="btn right_margin">
+			    <div class="yuan"><img src="icon/书.ico" width="25" height="25"></div>
+			      <span>免费</span>
+			    </div>
+			    <!-- btn4 -->
+			    <div class="btn right_margin">
+			    <div class="yuan"><img src="icon/book.png" width="25" height="25"></div>
+			      <span>完本</span>
+			    </div>
+			    <!-- 5 -->
+			    <div class="btn">
+			    <div class="yuan"><img src="icon/read.png" width="28" height="28"></div>
+			      <span>大神</span>
+			    </div>
+			</div>
+			<!-- test -->
+		</div>
+		<!-- 热门小说区 -->
+		<div class="content1">
+			<div class="title">
+			<span class="text1">热门小说</span>	
+			<span class="text2">起点编辑推荐</span>
+			</div>
+			<article>
+				<div class="scoll-div">
+				    <div class="box" id="box1">  
+				        <!-- 数据渲染区 -->
+				    </div>
+				</div>
+			</article>
+			<!-- 测试 -->
+		</div>
+		<!-- 内嵌button -->
+		<div class="c1-btn">
+			<a class="left-a" href="">新书强推</a>
+			<a class="right-a" href="">三江.网文新风</a>
+		</div>
+		<!-- 限时免费区 -->
+		<div class="content2">
+			<div class="title">
+			<span class="text1">限时免费</span>	
+			<span class="time">
+				<span class="day">00</span>:
+				<span id="hour"></span>:
+				<span id="minute"></span>:
+				<span id="second"></span>
+			</span>
+			<span class="more">更多></span>
+			</div>
+			<article>
+				<div class="scoll-div">
+				    <div class="box" id="box2">
+						<!-- 1 -->
+				      <!-- 数据渲染区 -->
+				    </div>
+				</div>
+			</article>
+		</div>
+		<!-- 排行榜区 -->
+		<div class="content3">
+			<div class="title">
+			<span class="text1">排行榜</span>	
+			<span class="more">更多></span>
+			</div>
+			<section class="paihang-btn">
+			<table>
+				<tr>
+					<td>热销榜</td>
+					<td id="one1">风云榜</td>
+					<td id="one2">签约榜</td>
+					<td id="one3">推销榜</td>
+				</tr>
+			</table>
+			</section>
+			<article>
+				<div class="scoll-div">
+				    <div class="box" id="box3">
+				        <!-- 数据渲染区 -->
+				    </div>
+				</div>
+			</article>
+		</div>
+		<!-- 广告图 -->
+		<div class="guanggao">
+			<img src="./img/guanggao.jpg" width="100%" height="100%" >
+		</div>
+		<!-- 新书抢鲜区 -->
+		<div class="content4" id="box4">
+			<div class="title">
+			<span class="text1">新书抢鲜</span>	
+			<span class="text2">24小时热销新书</span>
+			<span class="more">更多></span>
+			</div>
+			<!--  -->
+			<!-- 数据渲染区 -->
+			<!--  -->
+			
+		</div>
+		<!-- 畅销完本区 -->
+		<div class="content5" id="box5">
+			<div class="title">
+			<span class="text1">畅销完本</span>	
+			<span class="text2">今日畅销完本书</span>
+			<span class="more">更多></span>
+			</div>
+			<!-- 第一本 -->
+			<!-- 数据渲染区 -->
+			<!-- 第二本 -->
+			
+		</div>
+		<!-- 分类推荐区 -->
+		<div class="content6">
+			<div class="title">
+			<span class="text1">分类推荐</span>	
+			<span class="text2">频道主编推荐</span>
+			<span class="more">更多></span>
+			</div>
+			<!-- 按钮组 -->
+			<section class="paihang-btn">
+			<table>
+				<tr>
+					<td>玄幻奇幻</td>
+					<td id="one1">武侠仙侠</td>
+					<td id="one2">都市职场</td>
+				</tr>
+			</table>
+			</section>
+			<article>
+				<div class="scoll-div">
+				    <div class="box" id="box6">
+						
+						<!-- 数据渲染区 -->
+				       
+				    </div>
+				</div>
+			</article>
+			<!-- 按钮组2 -->
+			<div class="fenlei2">
+				<section class="paihang-btn">
+				<table>
+					<tr>
+						<td>历史军事</td>
+						<td id="one1">游戏体育</td>
+						<td id="one2">科幻悬疑</td>
+					</tr>
+				</table>
+				</section>
+				<article>
+					<div class="scoll-div">
+					    <div class="box" id="box7">
+							<!-- 1 -->
+							<!-- 数据渲染区 -->
+					    </div>
+					</div>
+				</article>
+			</div>
+		</div>
+		<!-- 轻小说区 -->
+		<div class="content7">
+			<div class="title">
+			<span class="text1">轻小说</span>	
+			<span class="more">更多></span>
+			</div>
+			<article>
+				<div class="scoll-div">
+				    <div class="box">
+						<!-- 1 -->
+				        <div class="box1">
+							<div class="bookimg">
+							<img src="img/xiaoshuo40.jpg" class="img-responsive">	
+							</div>
+							<p class="bookname">空想之拳</p>
+							<p class="author">杜停杯</p>
+						</div>
+				 
+				        <div class="box1">
+							<div class="bookimg">
+							<img src="img/xiaoshuo41.jpg" class="img-responsive">	
+							</div>
+							<p class="bookname">漫威召唤师</p>
+							<p class="author">亿爵</p>
+						</div>
+				        <div class="box1">
+							<div class="bookimg">
+							<img src="img/xiaoshuo42.jpg" class="img-responsive">	
+							</div>
+							<p class="bookname">融合流忍术..</p>
+							<p class="author">八卜</p>
+						</div>
+				        <div class="box1">
+							<div class="bookimg">
+							<img src="img/xiaoshuo43.jpg" class="img-responsive">	
+							</div>
+							<p class="bookname">从斗罗开始的.</p>
+							<p class="author">道然居士</p>
+						</div>
+				
+				    </div>
+				</div>
+			</article>
+		</div>
+		<!-- 精选专题区 -->
+		<div class="content8">
+			<div class="title">
+			<span class="text1">猜你喜欢</span>	
+			<span class="more">更多></span>
+			</div>
+			<div class="title">
+			<span class="text1">精选专题</span>	
+			</div>
+			<!-- 4图片 -->
+			<div class="imgbox">
+				<div class="img1">
+					<img src="./img/jingxuan1.jpg" width="100%" height="100%">
+				</div>
+				<div class="img2">
+					<img src="./img/jingxuan2.jpg" width="100%" height="100%">
+				</div>
+				<!-- 第二行图片 -->
+				<div class="img1">
+					<img src="./img/jingxuan3.jpg" width="100%" height="100%">
+				</div>
+				<div class="img2">
+					<img src="./img/jingxuan4.jpg" width="100%" height="100%">
+				</div>
+			</div>
+		<!-- 底部提示 -->
+		<div class="tip">
+			<p>登录后获得更多特色功能.<a href="">立即登录</a></p>
+		</div>
+		<!-- 版本+版权 -->
+		<div class="copyright">
+			<ul>
+				<li>客户端</li>
+				<li>触屏版</li>
+				<li>电脑版</li>
+				<li>帮助</li>
+				<li>反馈</li>
+			</ul>
+		<p style="font-size: 12px;margin-top: 3px;">Copyright@2002-2019 m.qidian.com</p>
+		</div>
+		</div>
+		
+		<!--自定义JS  -->
+		<script src="./js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
